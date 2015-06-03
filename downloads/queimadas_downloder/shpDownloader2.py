@@ -15,7 +15,7 @@ import getpass
 
 
 #Proxy
-use_proxy=True
+use_proxy=False
 if(use_proxy):
 	usr=raw_input("Usuario: ")
 	psw = getpass.getpass("Senha: ")
